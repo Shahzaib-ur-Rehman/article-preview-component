@@ -17,7 +17,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/Shahzaib-ur-Rehman/article-preview-component)
-- Live Site URL: [Article-Preview-Component](https://your-live-site-url.com)
+- Live Site URL: [Article-Preview-Component](https://article-preview-component-nine-jet.vercel.app/)
 
 ## My process
 
