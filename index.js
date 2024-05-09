@@ -1,8 +1,9 @@
 const shareButton = document.getElementById("share");
 
 shareButton.addEventListener("click", function () {
-  const tooltip = document.getElementById("tooltip");
-  if (tooltip.style.visibility === "visible") {
+  var expanded = this.getAttribute("aria-expanded") === "true" || false;
+  this.setAttribute('aria-expanded', !expanded);
+  if (expanded) {
     tooltip.style.visibility = "hidden";
   } else {
     tooltip.style.visibility = "visible";
